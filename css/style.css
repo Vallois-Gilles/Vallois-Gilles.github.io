@@ -64,3 +64,31 @@ p{
     background-color: rgb(99, 158, 255);
     text-shadow: 2px 2px 3px white;
 }
+.responsive{
+  display: none;
+}
+@media all and (max-width: 850px){
+  .responsive{
+    display: block;
+  }
+  .frame{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+  }
+  #iDentite{
+    display: none;
+  }
+  body{
+    overflow: auto;
+  }
+  .contactMargin{
+    margin-bottom: 30%;
+  }
+  .imgreseau{
+    width: 15%;
+    height: 15%;
+    margin-left: 5%;
+  }
+}
