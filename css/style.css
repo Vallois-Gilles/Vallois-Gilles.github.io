@@ -6,10 +6,6 @@
   margin-left: auto;
   margin-right: auto;
 }
-.card-body{
-  height: 150px;
-  overflow-y: auto
-}
 .nav-pills .nav-link:not(.active) {
   color: rgb(99, 158, 255);
 }
@@ -27,7 +23,6 @@ body{
   background-image: url(../img/back.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
-  overflow: hidden;
 }
 h1{
   font-size: 23px;
@@ -83,9 +78,6 @@ p{
   }
   #identite{
     display: none;
-  }
-  body{
-    overflow: auto;
   }
   .contactMargin{
     margin-bottom: 30%;
