@@ -6,6 +6,10 @@
   margin-left: auto;
   margin-right: auto;
 }
+.card-body{
+  height: 150px;
+  overflow-y: auto
+}
 .nav-pills .nav-link:not(.active) {
   color: rgb(99, 158, 255);
 }
